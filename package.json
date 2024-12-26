@@ -1,9 +1,9 @@
 {
-  "name": "create-parcel-app",
+  "name": "parcel-create-app",
   "version": "1.0.0",
   "type": "module",
   "bin": {
-    "create-parcel-app": "bin/create-parcel-app.js"
+    "parcel-create-app": "bin/parcel-create-app.js"
   },
   "main": "index.js",
   "scripts": {

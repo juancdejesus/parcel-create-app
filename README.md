@@ -19,7 +19,7 @@ A CLI tool to quickly create a React application using Parcel with options for T
 Install globally using NPM:
 
 ```bash
-npm install -g create-parcel-app
+npm install -g parcel-create-app
 ```
 
 ---
@@ -29,7 +29,7 @@ npm install -g create-parcel-app
 Run the CLI tool to create a new React project:
 
 ```bash
-create-parcel-app [project-name]
+parcel-create-app [project-name]
 ```
 
 If no project name is provided, the CLI will prompt you to enter one.
@@ -60,36 +60,13 @@ The CLI offers the following interactive prompts:
 
 ## Examples
 
-### Create a JavaScript Project
+### Create a project
 
 ```bash
-create-parcel-app my-js-app
+parcel-create-app my-js-app
 ```
 
 - Follow the prompts to configure the project.
-
-### Create a TypeScript Project
-
-```bash
-create-parcel-app my-ts-app
-```
-
-- Select **Yes** when prompted to use TypeScript.
-
-### Include Tailwind CSS and React Router
-
-```bash
-create-parcel-app my-styled-app
-```
-
-- Select **Yes** for Tailwind CSS and React Router during the prompts.
-
-### Quick Start Without Prompts
-
-To skip prompts, pass the project name directly:
-```bash
-create-parcel-app my-quick-app
-```
 
 ---
 
@@ -99,8 +76,8 @@ create-parcel-app my-quick-app
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/juancdejesus/create-parcel-app.git
-   cd create-parcel-app
+   git clone https://github.com/juancdejesus/parcel-create-app.git
+   cd parcel-create-app
    ```
 
 2. Link the package locally:
@@ -110,27 +87,11 @@ create-parcel-app my-quick-app
 
 3. Run the CLI tool:
    ```bash
-   create-parcel-app <project-name>
+   parcel-create-app <project-name>
    ```
 
 ---
 
-### Publishing to NPM
-
-1. Update the version in `package.json`:
-   ```bash
-   npm version <major|minor|patch>
-   ```
-
-2. Publish the package:
-   ```bash
-   npm publish
-   ```
-
-3. Verify on NPM:
-   - Visit [https://www.npmjs.com/](https://www.npmjs.com/) and search for your package.
-
----
 
 ## License
 
